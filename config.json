@@ -1,0 +1,24 @@
+{
+  "input": {
+    "type": "JSON",
+    "source": "in.json"
+  },
+  "output": [
+    {
+      "type": "KAFKA",
+      "target": "mosaic-consumers",
+      "schema": {
+        "device_ref_id": "device_ref_id",
+        "plan_code": "plan_code",
+        "channel_ref_id": "channel_ref_id",
+        "product_publisher_id": "product_publisher_id",
+        "product_version": "product_version",
+        "created_by": "created_by",
+        "creation_time": "creation_time",
+        "changed_by": "changed_by",
+        "changed_time": "changed_time",
+        "hit_guid": "hit_guid"
+      }
+    }
+  ]
+}

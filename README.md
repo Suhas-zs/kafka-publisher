@@ -1,1 +1,1 @@
-# kafka-publishers
+# kafka-publisher
